@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Cómo poner iconos de Material Designer?</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 1%;
+        }
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>¿Cómo añadir los iconos de Bootstrap a nuestro html?</h1>
+    <p>
+        Lo que hacemos es añadir en el head el siguiente enlace: "&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt;"
+        en el head de nuestro html. <br>
+        Podemos cambiar la verión o controlar la versión que estamos utilizando fijándonos en el apartado que hay a continuación
+        de "bootstrap".
+    </p>
+    <p>
+        Los iconos de Google tienen una ventaja sobre los de Bootstrap y es que podemos cambiar el icono dependiendo del contenido de las etiquetas.
+    </p>
+    <p>
+        Otra de las características que diferencian a Material Designer de Bootstrap es que dentro de la clase lo que nos aparece
+        es una familia de iconos de la misma categoría.
+    </p>
+    <p>
+        <table border="1">
+            <tr>
+                <td><span class="material-icons" style="font-size:48px;">check_circle</span></td>
+                <td><span class="material-icons" style="font-size:48px;">favorite_border</span></td>
+                <td><span class="material-icons" style="font-size:48px;">perm_identity</span></td>
+            </tr>
+        </table>
+        <p>
+            Para insertar los iconos, y que siemplemente se vean en el navegador lo hacemos en una etiqueta &lt;i&gt;<br>
+            Pero también podemos utilizarlos como botones.
+        </p>
+    </p>
+    <p>
+        <button class="material-icons" style="font-size:48px;">perm_contact_calendar</button>
+    </p>
+    <p>
+        Podemos cambiar el color y algunas propiedades de los iconos, incluso darle sombras o color de fondo, trabajamos con ellos como si de una
+        fuente se tratase.
+    </p>
+    <p>
+        <i class="material-icons" style="font-size:48px; color:red; background-color: blue; text-shadow: 3px 3px 2px black;">fingerprint</i>
+        <a class="material-icons" style="font-size:48px; color:cadetblue;" href="https://uniwebsidad.com/libros/bootstrap-3/capitulo-6/iconos-glyphicons">extension</a>
+    </p>
+</body>
+</html>
