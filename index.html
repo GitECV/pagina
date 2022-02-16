@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/estilos.css" />
     <title>DIW-Esther Cid</title>
   </head>
@@ -15,26 +15,51 @@
           <div id="presentacion" aria-expanded="true">
             <h1>ESTHER CID</h1>
             <h4>FULLSTACK DEVELOPER</h4>
-            <p id="introduccion">Este es mi portfolio para la asignatura de Diseño de Interfaces Web</p>
+            <p id="introduccion">
+              Este es mi portfolio para la asignatura de Diseño de Interfaces
+              Web
+            </p>
           </div>
         </div>
         <div id="dibujo" class="centrar">
-          <img src="img/500PX.jpg" alt="" class="responsive">
+          <img src="img/500PX.jpg" alt="" class="responsive" />
         </div>
       </div>
       <div id="navegador" role="selector" aria-expanded="true">
-        <h1 class="boton" aria-controls="navegador" onclick="primerTrimestre()">PRIMER TRIMESTRE</h1>
-        <h1 class="boton" aria-controls="navegador" onclick="segundoTrimestre()">SEGUNDO TRIMESTRE</h1>
+        <h1 class="boton" aria-controls="navegador" onclick="primerTrimestre()">
+          PRIMER TRIMESTRE
+        </h1>
+        <h1
+          class="boton"
+          aria-controls="navegador"
+          onclick="segundoTrimestre()"
+        >
+          SEGUNDO TRIMESTRE
+        </h1>
       </div>
     </div>
     <script>
-        function primerTrimestre() {
-            window.location.href = "primer_trimestre.html";
-        }
+      function primerTrimestre() {
+        window.location.href = "primer_trimestre.html";
+      }
 
-        function segundoTrimestre() {
-            window.location.href = "segundo_trimestre.html";
-        }
+      function segundoTrimestre() {
+        window.location.href = "segundo_trimestre.html";
+      }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FGTR79143W"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FGTR79143W");
     </script>
   </body>
 </html>
