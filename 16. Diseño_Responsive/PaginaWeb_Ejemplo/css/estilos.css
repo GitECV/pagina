@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 100px) and (max-width: 1000px) {
+    body {
+        background-color: blue;
+    }
+
+    header {
+        padding: 5%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+        float: left;
+        /* Desplazamos el nav hacia la izquierda */
+    }
+
+    nav ul {
+        list-style: none;
+        overflow: hidden;
+        /* Limpiamos errores de float */
+    }
+
+    nav ul li {
+        float: left;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        padding: 1% 20% 3% 4%;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-align: justify;
+    }
+
+    #pie {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 32px;
+        padding-bottom: 16px;
+        background: #111;
+        background: rgba(0, 0, 0, .90);
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        height: 780px;
+        width: 400px;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        background-color: yellow;
+    }
+    header {
+        padding: 5%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+        background-color: black;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 1%;
+        margin: 1%;
+    }
+
+    nav ul li {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: rgb(235, 235, 235);
+        text-decoration: none;
+        text-align: center;
+        list-style: none;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        height: 780px;
+        width: 400px;
+    }
+}

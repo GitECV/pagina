@@ -1,0 +1,41 @@
+$primario: rgb(142, 142, 255);
+$secundario: rgb(218, 218, 136);
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: aquamarine;
+    height: 8rem;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img {
+    padding: 2rem;
+}
+
+footer {
+    background-color: $secundario;
+}
+
+.reemplazar {
+    display: block;
+    box-sizing: border-box;
+    background: url(https://images.unsplash.com/photo-1627412466304-5ea99923ab5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyODAyNTc5NQ&ixlib=rb-1.2.1&q=80&w=400)
+      no-repeat;
+    width: 180px;
+    height: 236px;
+    padding-left: 180px;
+  }

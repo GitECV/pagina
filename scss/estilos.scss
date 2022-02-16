@@ -1,0 +1,232 @@
+@import 'GLOBALS';
+
+@media (min-width: 1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: radial-gradient(
+      rgb(255, 236, 65),
+      $color-secundario,
+      rgb(255, 254, 221)
+    );
+  }
+
+  #entrada {
+    background-color: rgb(255, 255, 255);
+    width: 70em;
+    height: 40em;
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+    box-shadow: 0px 0px 20px 10px rgba(145, 145, 145, 0.3);
+  }
+
+  .redondeo {
+    border-radius: 15px;
+    border: 1px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+  .boton {
+    color: $fuente-principal;
+  }
+  .boton:hover {
+    color: $color-secundario-dk;
+    text-shadow: 1px 1px 2px $color-primario-dk;
+  }
+
+  h1 {
+    font-family: $fuente-secundaria, arial;
+    letter-spacing: 4px;
+  }
+
+  #navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  #cuerpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  #descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 9rem;
+    padding-left: 7rem;
+  }
+
+  #dibujo {
+    padding-right: 2rem;
+  }
+
+  #introduccion {
+    padding-right: 5rem;
+  }
+
+  #presentacion {
+    font-family: $fuente-principal;
+  }
+
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: radial-gradient(
+      rgb(255, 236, 65),
+      rgb(241, 255, 159),
+      rgb(255, 254, 221)
+    );
+  }
+
+  #entrada {
+    background-color: rgb(255, 255, 255);
+    width: 70em;
+    height: 40em;
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+    box-shadow: 0px 0px 20px 10px rgba(145, 145, 145, 0.3);
+  }
+
+  .redondeo {
+    border-radius: 15px;
+    border: 1px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+  .boton {
+    color: black;
+  }
+  .boton:hover {
+    color: $fuente-secundaria;
+    text-shadow: 1px 1px 2px rgb(117, 117, 117);
+  }
+
+  h1 {
+    font-family: $fuente-secundaria;
+    letter-spacing: 4px;
+  }
+
+  #navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  #cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  #descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 4rem;
+  }
+
+  #dibujo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 2rem;
+  }
+
+  #introduccion {
+    padding-right: 5rem;
+  }
+  #dibujo img {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  #presentacion {
+    font-family: $fuente-principal;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #presentacion h4,
+  #presentacion p {
+    display: none;
+  }
+
+  img {
+    width: 15rem;
+  }
+
+  #presentacion {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: $color-secundario;
+  }
+
+  h1 {
+    font-family: $fuente-secundaria;
+    letter-spacing: 4px;
+    text-align-last: center;
+  }
+
+  .boton {
+    color: black;
+  }
+  .boton:hover {
+    color: $color-secundario-dk;
+    text-shadow: 1px 1px 2px rgb(117, 117, 117);
+  }
+
+  #dibujo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      padding: 2rem, 0, 2rem, 0;
+  }
+
+  #presentacion {
+    font-family: $fuente-principal;
+  }
+}

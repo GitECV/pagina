@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@font-face {
+  font-family: Gothic;
+  src: url("/fonts/LeagueGothic-Regular.otf");
+}
+@media (min-width: 1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: radial-gradient(#ffec41, #FFFD95, #fffedd);
+  }
+
+  #entrada {
+    background-color: white;
+    width: 70em;
+    height: 40em;
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+    box-shadow: 0px 0px 20px 10px rgba(145, 145, 145, 0.3);
+  }
+
+  .redondeo {
+    border-radius: 15px;
+    border: 1px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+  .boton {
+    color: "Montserrat", sans-serif;
+  }
+
+  .boton:hover {
+    color: #fffc51;
+    text-shadow: 1px 1px 2px #1a1a1a;
+  }
+
+  h1 {
+    font-family: "Gothic", arial, arial;
+    letter-spacing: 4px;
+  }
+
+  #navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  #cuerpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  #descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 9rem;
+    padding-left: 7rem;
+  }
+
+  #dibujo {
+    padding-right: 2rem;
+  }
+
+  #introduccion {
+    padding-right: 5rem;
+  }
+
+  #presentacion {
+    font-family: "Montserrat", sans-serif;
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: radial-gradient(#ffec41, #f1ff9f, #fffedd);
+  }
+
+  #entrada {
+    background-color: white;
+    width: 70em;
+    height: 40em;
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+    box-shadow: 0px 0px 20px 10px rgba(145, 145, 145, 0.3);
+  }
+
+  .redondeo {
+    border-radius: 15px;
+    border: 1px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+  .boton {
+    color: black;
+  }
+
+  .boton:hover {
+    color: "Gothic", arial;
+    text-shadow: 1px 1px 2px #757575;
+  }
+
+  h1 {
+    font-family: "Gothic", arial;
+    letter-spacing: 4px;
+  }
+
+  #navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  #cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  #descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 4rem;
+  }
+
+  #dibujo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 2rem;
+  }
+
+  #introduccion {
+    padding-right: 5rem;
+  }
+
+  #dibujo img {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  #presentacion {
+    font-family: "Montserrat", sans-serif;
+  }
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #presentacion h4,
+#presentacion p {
+    display: none;
+  }
+
+  img {
+    width: 15rem;
+  }
+
+  #presentacion {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #FFFD95;
+  }
+
+  h1 {
+    font-family: "Gothic", arial;
+    letter-spacing: 4px;
+    text-align-last: center;
+  }
+
+  .boton {
+    color: black;
+  }
+
+  .boton:hover {
+    color: #fffc51;
+    text-shadow: 1px 1px 2px #757575;
+  }
+
+  #dibujo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem, 0, 2rem, 0;
+  }
+
+  #presentacion {
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
