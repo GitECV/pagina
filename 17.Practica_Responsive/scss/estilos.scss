@@ -1,0 +1,265 @@
+$primario: #343434;
+$secundario: #FFFD95;
+$secundario-darker: #f7f32d;
+
+$c_letra_dark: rgb(228, 227, 227);
+$c_letra_light: rgb(39, 39, 39);
+
+$negrita: bolder;
+$suave: lighter;
+
+
+@media (min-width: 800px) and (max-width: 2000px){
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $negrita;
+    background-color: $secundario;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 8rem;
+    background-color: $primario;
+    color: $c_letra_dark;
+}
+
+#hamburguesa {
+    display: none;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+#logo {
+    margin-top: 4rem;
+}
+
+#titulo {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: $negrita;
+}
+
+#menu p {
+    margin-right: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 1%;
+}
+
+img {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.redondeado {
+    border-radius: 15px;
+    border: 2px solid $secundario-darker;
+  }
+
+  footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: $secundario-darker;
+      color: $c_letra_light;
+  }
+
+  footer div {
+      font-weight: $negrita;
+      font-size: 2rem;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: $negrita;
+        background-color: $secundario;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 5rem;
+        background-color: $primario;
+        color: $c_letra_dark;
+        text-align: center;
+    }
+    
+    #hamburguesa {
+        padding-top: 1.8rem;
+    }
+
+    #menu {
+        display: none;
+    }
+    
+    #logo {
+        margin-top: 2rem;
+    }
+    
+    #titulo {
+        margin-top: 2rem;
+        font-weight: $negrita;
+    }
+    
+    #menu p {
+        margin-right: 0.5rem;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        margin-left: 1%;
+    }
+    
+    img {
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+    .redondeado {
+        border-radius: 15px;
+        border: 2px solid $secundario-darker;
+      }
+    
+      footer {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-top: 2%;
+          background-color: $secundario-darker;
+          color: $c_letra_light;
+      }
+    
+      footer div {
+          font-weight: $negrita;
+          font-size: 1rem;
+      }
+}
+
+
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: $suave;
+        background-color: $secundario;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 5rem;
+        background-color: $primario;
+        color: $c_letra_dark;
+        text-align: center;
+    }
+    
+    #hamburguesa {
+        padding-top: 1.8rem;
+    }
+
+    #menu {
+        display: none;
+    }
+    
+    #logo {
+        margin-top: 2rem;
+    }
+    
+    #titulo {
+        margin-top: 2rem;
+        font-weight: $suave;
+    }
+    
+    #menu p {
+        margin-right: 0.5rem;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 1%;
+    }
+    
+    img {
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+    .redondeado {
+        border-radius: 15px;
+        border: 2px solid $secundario-darker;
+      }
+    
+      footer {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-top: 2%;
+          background-color: $secundario-darker;
+          color: $c_letra_light;
+      }
+    
+      footer div {
+          font-weight: $negrita;
+          font-size: 1rem;
+      }
+}
