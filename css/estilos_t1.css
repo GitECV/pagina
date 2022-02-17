@@ -73,4 +73,13 @@ h1 {
   font-size: 2.5rem;
 }
 
+.enlace {
+  text-decoration: none;
+  color: black;
+}
+
+.enlace a:hover {
+  color: aquamarine;
+}
+
 /*# sourceMappingURL=estilos_t1.css.map */
