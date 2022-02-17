@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="evideo.css">
+    <title>Reproducción de vídeo</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div id="botones">
+            <button onclick="buttonPlay()" id="play">Play</button>
+            <button onclick="buttonPause()" id="pause">Pause</button>
+            <button onclick="buttonRewind()" id="rewind">Recarga(Min 0)</button>
+            <button onclick="buttonStop()" id="stop">Stop</button>
+        </div>
+        <video id="video">
+            <source src="movie_clip2.ogg" type="video/ogg">
+            <source src="movie_clip2.mp4" type="video/mp4">
+            <p>Your browser cannot play the provided video file.</p>
+          </video>
+    </div>
+
+    <script>
+        var video = document.querySelector("#video");
+        function buttonPlay() {
+            video.play();
+        }
+
+        function buttonPause() {
+            video.pause();
+        }
+
+        function buttonRewind() {
+            video.load();
+        }
+
+        function buttonStop() {
+            video.currentTime = 0;
+            video.pause();
+        }
+    </script>
+</body>
+</html>
