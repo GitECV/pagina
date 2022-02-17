@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 1% 2% 1%;
+  }
+
+  .location {
+    font-size: 170%;
+    font-weight: bold;
+  }
+
+  .date {
+    font-size: 80%;
+    font-weight: lighter;
+    color: #414141;
+    box-sizing: content-box;
+    width: 1rem;
+  }
+
+  .desc {
+    font-size: 80%;
+    font-weight: lighter;
+    color: #414141;
+  }
+
+  .current {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .visual {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .temp {
+    font-size: 3rem;
+  }
+
+  .scale {
+    font-size: 1.5rem;
+  }
+
+  div .visual {
+    padding-left: 0.5rem;
+  }
+
+  .description {
+    padding-right: 1rem;
+  }
+
+  .seven-day-fc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  i {
+    display: flex;
+    flex-direction: column;
+    color: #888;
+  }
+
+  .principal {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@media (min-width: 700px) and (max-width: 1200px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 1% 2% 1%;
+  }
+
+  .location {
+    font-size: 170%;
+    font-weight: bold;
+  }
+
+  .date {
+    font-size: 80%;
+    font-weight: lighter;
+    color: #414141;
+    box-sizing: content-box;
+    width: 1rem;
+  }
+
+  .desc {
+    font-size: 80%;
+    font-weight: lighter;
+    color: #414141;
+  }
+
+  .current {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .visual {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .temp {
+    font-size: 3rem;
+  }
+
+  .scale {
+    font-size: 1.5rem;
+  }
+
+  div .visual {
+    padding-left: 0.5rem;
+  }
+
+  .description {
+    padding-right: 1rem;
+  }
+
+  .seven-day-fc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  i {
+    content: "Polen ";
+    color: #888;
+  }
+
+  .principal {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 1% 2% 1%;
+  }
+
+  .location {
+    font-size: 170%;
+    font-weight: bold;
+  }
+
+  .date {
+    font-size: 100%;
+    font-weight: bold;
+    color: #414141;
+    box-sizing: content-box;
+    width: 1rem;
+  }
+
+  .desc {
+    font-size: 80%;
+    font-weight: lighter;
+    color: #414141;
+  }
+
+  .current {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 6rem;
+  }
+
+  .seven-day {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .seven-day-temp {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .visual {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .temp {
+    font-size: 3rem;
+  }
+
+  .scale {
+    font-size: 1.5rem;
+  }
+
+  div .visual {
+    padding-left: 0.5rem;
+  }
+
+  .description {
+    padding-right: 1rem;
+  }
+
+  .seven-day-fc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .pcount {
+    display: flex;
+    flex-direction: row;
+  }
+
+  i {
+    content: "Polen ";
+    color: #888;
+  }
+
+  .principal {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .temp-high {
+    font-weight: bolder;
+    color: #414141;
+    margin-right: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
