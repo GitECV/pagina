@@ -1,81 +1,216 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
-@font-face {
-  font-family: Gothic;
-  src: url("/fonts/LeagueGothic-Regular.otf");
-}
-* {
-  padding: 0;
-  margin: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@media (min-width: 850px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
 
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 1rem;
-  height: 4rem;
-  width: 100%;
-  background-color: #FFFD95;
-  font-family: "Gothic", arial;
-  letter-spacing: 5px;
-  font-size: larger;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-}
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+    height: 4rem;
+    width: 100%;
+    background-color: #FFFD95;
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 5px;
+    font-size: larger;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
 
-article {
-  display: flex;
-  flex-direction: column;
-  padding-left: 1rem;
-  padding-top: 1rem;
-  font-family: "Montserrat", sans-serif;
-}
+  article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-family: "Montserrat", sans-serif;
+  }
 
-#botones {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+  #botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-.boton {
-  padding: 1rem;
-}
+  .boton {
+    padding: 1rem;
+  }
 
-.trabajo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: auto;
-  margin: 1rem;
-  padding: 2rem;
-  text-align: center;
-}
+  .trabajo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: auto;
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+  }
 
-.icono {
-  padding-left: 3rem;
-  width: 100px;
-}
+  .icono {
+    padding-left: 3rem;
+    width: 100px;
+  }
 
-.trabajo:hover {
-  background-color: #FFFD95;
-}
+  .trabajo:hover {
+    background-color: #FFFD95;
+  }
 
-.redondeo {
-  border-radius: 15px;
-  border: 1px;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
-}
+  .redondeo {
+    border-radius: 15px;
+    border: 1px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
 
-h1 {
-  font-size: 2.5rem;
-}
+  h1 {
+    font-size: 2.5rem;
+  }
 
-.enlace {
-  text-decoration: none;
-  color: black;
+  .enlace {
+    text-decoration: none;
+    color: black;
+  }
+
+  #buscador {
+    height: 0.5em;
+  }
+
+  #searcher {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #searcher img {
+    width: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  #home {
+    width: 2rem;
+  }
+
+  #miga {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5d9199;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (min-width: 250px) and (max-width: 850px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+    height: 4rem;
+    width: 100%;
+    background-color: #FFFD95;
+    font-family: "Bebas Neue", cursive;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+
+  header img {
+    width: 2rem;
+  }
+
+  header h2 {
+    padding-top: 0.5rem;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .trabajo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .icono {
+    padding-left: 3rem;
+    width: 100px;
+  }
+
+  .trabajo:hover {
+    background-color: #FFFD95;
+  }
+
+  .redondeo {
+    border-radius: 15px;
+    border: 1px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+  article h1 {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .enlace {
+    text-decoration: none;
+    color: black;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div h2 {
+    font-size: 1rem;
+  }
+
+  #searcher {
+    display: none;
+  }
+
+  #miga {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5d9199;
+    padding-top: 1rem;
+  }
 }
 
 /*# sourceMappingURL=estilos_t1.css.map */

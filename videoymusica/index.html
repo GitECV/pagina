@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <title>Galería de vídeo</title>
+  </head>
+  <body>
+    <header>
+      <h1>Galería de videos</h1>
+    </header>
+    <main>
+      <section id="section-1">
+        <article class="video">
+          <video>
+            <source src="multimedia/mp4/Lemon.mp4" type="video/mp4" />
+            <source src="multimedia/ogg/Lemon.ogg" type="video/ogg" />
+            Este navegador no soporta el elemento vídeo
+          </video>
+          <div class="botones">
+            <button onclick="darRewind(this.id)" id="0">
+              <span class="material-icons-outlined"> replay </span>
+            </button>
+            <button onclick="darPlay(this.id)" id="0">
+              <span class="material-icons-outlined"> play_circle </span>
+            </button>
+            <button onclick="darStop(this.id)" id="0">
+              <span class="material-icons-outlined"> stop </span>
+            </button>
+            <button  onclick="darPause(this.id)" id="0">
+              <span class="material-icons-outlined"> pause </span>
+            </button>
+          </div>
+        </article>
+        <article class="video">
+          <video>
+            <source src="multimedia/mp4/Wishkey2.mp4" type="video/mp4" />
+            <source src="multimedia/ogg/Wishkey2.ogg" type="video/ogg" />
+            Este navegador no soporta el elemento vídeo
+          </video>
+          <div class="botones">
+            <button onclick="darRewind(this.id)" id="1">
+              <span class="material-icons-outlined"> replay </span>
+            </button>
+            <button onclick="darPlay(this.id)" id="1">
+              <span class="material-icons-outlined"> play_circle </span>
+            </button>
+            <button onclick="darStop(this.id)" id="1">
+              <span class="material-icons-outlined"> stop </span>
+            </button>
+            <button  onclick="darPause(this.id)" id="1">
+              <span class="material-icons-outlined"> pause </span>
+            </button>
+          </div>
+        </article>
+      </section>
+      <section id="section-2">
+        <article class="video">
+          <video>
+            <source src="multimedia/mp4/Cocktail.mp4" type="video/mp4" />
+            <source src="multimedia/ogg/Cocktail.ogg" type="video/ogg" />
+            Este navegador no soporta el elemento vídeo
+          </video>
+          <div class="botones">
+            <button onclick="darRewind(this.id)" id="2">
+              <span class="material-icons-outlined"> replay </span>
+            </button>
+            <button onclick="darPlay(this.id)" id="2">
+              <span class="material-icons-outlined"> play_circle </span>
+            </button>
+            <button onclick="darStop(this.id)" id="2">
+              <span class="material-icons-outlined"> stop </span>
+            </button>
+            <button  onclick="darPause(this.id)" id="2">
+              <span class="material-icons-outlined"> pause </span>
+            </button>
+          </div>
+        </article>
+        <article class="video">
+          <video>
+            <source src="multimedia/mp4/Wishkey1.mp4" type="video/mp4" />
+            <source src="multimedia/ogg/Wishkey1.ogg" type="video/ogg" />
+            Este navegador no soporta el elemento vídeo
+          </video>
+          <div class="botones">
+            <button onclick="darRewind(this.id)" id="3">
+              <span class="material-icons-outlined"> replay </span>
+            </button>
+            <button onclick="darPlay(this.id)" id="3">
+              <span class="material-icons-outlined"> play_circle </span>
+            </button>
+            <button onclick="darStop(this.id)" id="3">
+              <span class="material-icons-outlined"> stop </span>
+            </button>
+            <button  onclick="darPause(this.id)" id="3">
+              <span class="material-icons-outlined"> pause </span>
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div>Todos los derechos reservados</div>
+      <div>Página creada por Esther Cid</div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

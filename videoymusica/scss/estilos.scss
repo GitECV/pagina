@@ -1,0 +1,73 @@
+$c-secundario: #EEEBDD;
+$c-primario: #630000;
+$c-aux-1: #D8B6A4;
+$c-aux-2: #000000;
+
+//Fuentes de letra
+$fuente-principal: 'Courier New', Courier, monospace;
+$fuente-secundaria: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $c-secundario;
+    font-family: $fuente-secundaria;
+    color: $c-aux-2;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: center;
+    font-family: $fuente-principal;
+    background-color: $c-primario;
+    color: $c-secundario;
+}
+
+header h1 {
+    padding-top: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: $c-primario;
+    color: $c-aux-1;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+}

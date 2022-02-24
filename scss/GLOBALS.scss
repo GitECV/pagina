@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
-@font-face {
-
-  font-family: Gothic;
-  
-  src: url("/fonts/LeagueGothic-Regular.otf");
-  
-  }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 $color-primario: #343434;
 $color-primario-dk: #1a1a1a;
@@ -15,6 +10,8 @@ $color-secundario: #FFFD95;
 $color-secundario-dk:#fffc51;
 $color-secundario-lg: #fffecd;
 
+$color-miga: rgb(93, 145, 153);
 
 $fuente-principal: 'Montserrat', sans-serif;
-$fuente-secundaria: "Gothic", arial;
+$fuente-secundaria: 'Bebas Neue', cursive;
+$fuente-responsive: 'Montserrat', sans-serif;

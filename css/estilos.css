@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
-@font-face {
-  font-family: Gothic;
-  src: url("/fonts/LeagueGothic-Regular.otf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 @media (min-width: 1000px) {
   * {
     margin: 0;
@@ -44,7 +42,7 @@
   }
 
   h1 {
-    font-family: "Gothic", arial, arial;
+    font-family: "Bebas Neue", cursive, arial;
     letter-spacing: 4px;
   }
 
@@ -123,12 +121,12 @@
   }
 
   .boton:hover {
-    color: "Gothic", arial;
+    color: "Bebas Neue", cursive;
     text-shadow: 1px 1px 2px #757575;
   }
 
   h1 {
-    font-family: "Gothic", arial;
+    font-family: "Bebas Neue", cursive;
     letter-spacing: 4px;
   }
 
@@ -200,7 +198,7 @@
   }
 
   h1 {
-    font-family: "Gothic", arial;
+    font-family: "Bebas Neue", cursive;
     letter-spacing: 4px;
     text-align-last: center;
   }

@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
-@font-face {
-  font-family: Gothic;
-  src: url("/fonts/LeagueGothic-Regular.otf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 /*# sourceMappingURL=GLOBALS.css.map */
